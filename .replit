@@ -1,0 +1,2 @@
+language = "Bash"
+run = "mcs -out:Main.exe './AtividadesBEECROWD2022/OlaMundo.cs' ; mono Main.exe"
