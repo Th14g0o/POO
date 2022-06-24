@@ -15,6 +15,7 @@ class SeilaMan {
     
     string[] dividido = nome.Split();
     int tamanho = dividido.GetUpperBound(0);
+    // int tamanho = dividido.Length;
     string NomeFormat = "";
     for (int i = 0; i <= tamanho; i ++){
 
@@ -22,7 +23,7 @@ class SeilaMan {
       string nomesstr = nomes.ToString();
       string inicial = (nomesstr[0].ToString()).ToUpper(); 
       string removinical = nomesstr.Remove(0, 1);
-      string nome_format = inicial + removinical;
+      string nome_format = inicial + (removinical.ToLower());
       // string nome_format = nomes.Replace(nomes[0].ToString(), inicial);
       
       if (NomeFormat == "") NomeFormat += nome_format;
