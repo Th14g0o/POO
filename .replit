@@ -1,2 +1,3 @@
 language = "Bash"
-run = "mcs -out:Main.exe './AtividadesBEECROWD2022/Lista6/Ex06.cs' ; mono Main.exe"
+run = "mcs -out:Main.exe './AtividadesBEECROWD2022/Lista7/Ex05.cs' ; mono Main.exe"
+#run = "Python3 'nome do arquivo.py'"

@@ -1,7 +1,7 @@
 using System;
 class Program {
   public static void Main(string[] args) {
-
+    
     int quant_termos = int.Parse(Console.ReadLine());
     int vezes = 1;
     int an1 = 0;
