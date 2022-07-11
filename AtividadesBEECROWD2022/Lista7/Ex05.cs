@@ -66,7 +66,7 @@ class SeilaMan {
       
     }
     
-    return nomeformat.Remove(nomeformat.Length-1, 1);
+    return nomeformat.Remove(nomeformat.Length - 1, 1);
     
   } 
   
