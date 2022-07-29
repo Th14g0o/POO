@@ -2,7 +2,7 @@ using System;
 class Programa{
   
   public static void Main(string[] args){
-    Console.WriteLine("Digite \"c\" ou \"d\", para, respectivamente, crescetne ou decrescente: ");
+    Console.WriteLine("Digite \"c\" ou \"d\", para, respectivamente, crescente ou decrescente: ");
     string cd = Console.ReadLine().ToLower();
     bool ordem;
     if (cd == "c") ordem = true;
