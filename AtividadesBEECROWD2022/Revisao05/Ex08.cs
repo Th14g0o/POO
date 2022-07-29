@@ -9,9 +9,9 @@ class Programa{
   public static int MenorInteiro(double x){
     //Função teto
     string teste = x.ToString();
-    if (teste.IndexOf('.') != -1) return ((int)x);
-    else if (x<0) return ((int)x+1);
-    else return ((int)x) +1;  
+    if (teste.IndexOf('.') != -1 && x<0) return ((int)x);
+    else if (x < 0) return ((int)x+1);
+    else return ((int)x+1) ;  
     
   }
 }
