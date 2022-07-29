@@ -12,7 +12,7 @@ class Programa{
     int x = 2;
     bool prim = true;
     while(x<=n2){
-      if (n%x == 0){
+      if (n%x == 0 && n!=x){
         prim = false;
         break;
       }
