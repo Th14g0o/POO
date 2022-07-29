@@ -5,13 +5,13 @@ class Programa{
     string[] dados = Console.ReadLine().Split();
     double distancia = double.Parse(dados[0]);
     string dt = dados[1];
-    Console.WriteLine($"Velocidade Media = {VelocidadeMedia(distancia, dt)} km/h");
+    Console.WriteLine($"Velocidade Media = {VelocidadeMedia(distancia, dt):0.00} km/h");
   }
   public static double VelocidadeMedia(double distancia, string tempo){
     string[] tempo_dividido = tempo.Split(':');
-    int dt = int.Parse(tempo_dividido[0]) + (int.Parse(tempo_dividido[1])/60) + (int.Parse(tempo_dividido[02])/3600);
+    double dt = double.Parse(tempo_dividido[0]) + (double.Parse(tempo_dividido[1])/60) + (double.Parse(tempo_dividido[02])/3600);
     double v = distancia/dt;
     return v;
-    //5 2:0:0
+    //10 1:40:60
   }
 }
