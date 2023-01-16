@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTurma xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Turma>
+    <Id>1</Id>
+    <IdProfessor>0</IdProfessor>
+    <Curso>Renan</Curso>
+    <Descricao>jhusdj|@.</Descricao>
+    <AnoLetivo>1234</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>4</Id>
+    <IdProfessor>0</IdProfessor>
+    <Curso>Renan</Curso>
+    <Descricao>jhusdj|@.</Descricao>
+    <AnoLetivo>1234</AnoLetivo>
+  </Turma>
+</ArrayOfTurma>
